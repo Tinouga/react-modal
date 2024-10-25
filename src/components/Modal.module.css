@@ -1,0 +1,74 @@
+:root {
+    --modal-overlay-bg: rgba(0, 0, 0, 0.75);
+    --modal-content-bg: #fff;
+    --modal-padding: 15px 30px;
+    --modal-border-radius: 8px;
+    --modal-box-shadow: 0 0 10px #000;
+    --modal-close-btn-size: 30px;
+    --modal-close-btn-color: #000;
+}
+
+.modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--modal-overlay-bg);
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 300ms ease-in-out;
+}
+
+.modalContent {
+    background-color: var(--modal-content-bg);
+    padding: var(--modal-padding);
+    width: 90%;
+    max-width: 500px;
+    position: relative;
+    border-radius: var(--modal-border-radius);
+    box-shadow: var(--modal-box-shadow);
+    opacity: 0;
+    transform: scale(0.9);
+    transition: opacity 300ms ease-in-out;
+}
+
+.visible {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.modalCloseBtn {
+    position: absolute;
+    top: 0.25rem;
+    right: 0.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: var(--modal-close-btn-size);
+    height: var(--modal-close-btn-size);
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    color: var(--modal-close-btn-color);
+}
+
+.modalCloseBtn:hover {
+    opacity: 0.8;
+}
+
+.srOnly {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
