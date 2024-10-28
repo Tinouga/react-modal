@@ -41,6 +41,10 @@
     "vite": "^5.4.8",
     "vite-plugin-css-injected-by-js": "^3.5.2"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tinouga/react-modal.git"
+  },
   "keywords": [
     "react",
     "modal",
@@ -48,6 +52,10 @@
     "library",
     "npm"
   ],
-  "author": "Angel Pavard",
-  "license": "MIT"
+  "author": "Angel Pavard <angel.devvvv@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tinouga/react-modal/issues"
+  },
+  "homepage": "https://github.com/Tinouga/react-modal"
 }
