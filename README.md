@@ -13,7 +13,7 @@
 Install the package via npm:
 
 ```bash
-npm install react-modal-custom
+npm install @angeldevvvv/react-modal
 ```
 
 ## Peer Dependencies
