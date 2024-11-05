@@ -2,7 +2,7 @@
 
 ## Description
 
-A simple, accessible and customizable modal component for React applications.
+A simple, lightweight, accessible and customizable modal component for React applications.
 
 ## Features
 
