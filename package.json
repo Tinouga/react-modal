@@ -1,7 +1,7 @@
 {
   "name": "@angeldevvvv/react-modal",
-  "version": "1.0.9",
-  "description": "A modal component for React, aiming to replace the jQuery modal",
+  "version": "1.0.10",
+  "description": "A simple, lightweight, accessible and customizable modal component for React applications.",
   "main": "dist/react-modal.cjs.js",
   "module": "dist/react-modal.es.js",
   "type": "module",
