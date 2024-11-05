@@ -1,5 +1,9 @@
 # React Modal
 
+## Description
+
+A simple, accessible and customizable modal component for React applications.
+
 ## Features
 
 - **Accessible**: Complies with ARIA standards and traps focus within the modal.
