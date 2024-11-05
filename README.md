@@ -1,4 +1,4 @@
-# React Modal
+﻿# React Modal
 
 ## Description
 
